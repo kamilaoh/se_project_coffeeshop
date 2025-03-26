@@ -28,7 +28,7 @@
 
 .header__title {
   margin: 183px 0 0;
-  font-family: "Inter", "Arial", sans-serif;
+  font-family: "Italic Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -42,11 +42,12 @@
 }
 
 .header__description {
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: "Italic Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
   max-width: 683px;
+  font-weight: 400;
 }
 
 .header__footer {
@@ -95,6 +96,7 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  border: none;
 }
 
 .recipes__video-caption {
